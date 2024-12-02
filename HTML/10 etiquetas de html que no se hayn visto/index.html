@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 etiquetas de HTML</title>
+</head>
+<body>
+    <h1>10 etiquetas de HTML</h1>
+    <hr>
+
+        <h2>1. HTML Video Element</h2>
+        <p>
+                El atributo de controles agrega controles de video, como reproducción, pausa y volumen.
+                Es una buena idea incluir siempre atributos de ancho y alto. Si no se configuran el alto y el ancho, la página puede parpadear mientras se carga el video.
+                El elemento < source > le permite especificar archivos de vídeo alternativos entre los que el navegador puede elegir. El navegador utilizará el primer formato reconocido.
+                El texto entre las etiquetas < video > y < /video > solo se mostrará en navegadores que no admitan el elemento < video >.
+
+                <video width="320" height="240" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                  </video>
+        </p>
+        
+        <br>
+
+        <h2>2. Youtube Video</h2>
+        <p>
+                Para poder reproducir un video de YouTube en su pagina web, debe seguir los siguientes paso:
+                <ul>
+                    <li>Subir el video a Youtube</li>
+                    <li>Conseguir el ID del video</li>
+                    <li>Definir un elemento < iFrame > en la pagina web</li>
+                    <li>Dejar que el atributo scr apunta al video</li>
+                    <li>Usar las funciones width and height para especificar las dimensiones del reproductor</li>
+
+                    <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </ul>
+        </p>
+        
+        <br>
+
+        <h2>3. iFrame Target de Enlace</h2>
+        <p>
+            Un iframe HTML se utiliza para mostrar una página web dentro de una página web.
+            Se puede utilizar un iframe como marco de destino para un enlace.
+            El atributo de destino del enlace debe hacer referencia al atributo de nombre del iframe:
+            
+            <iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+
+            <p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+        </p>
+        
+        <br>
+
+        <h2>4. HTML Audio </h2>
+        <p>
+            El atributo de controles agrega controles de audio, como reproducción, pausa y volumen.
+            El elemento < source > le permite especificar archivos de audio alternativos entre los que el navegador puede elegir. El navegador utilizará el primer formato reconocido.
+            El texto entre las etiquetas < audio > y < /audio > solo se mostrará en navegadores que no admitan el elemento < audio >.
+
+            <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+
+        </p>
+        
+        <br>
+
+        <h2>5. HTML Color Text</h2>
+        <p>
+            Nos perimite darle un color especifico a algun texto.
+            
+            <h1 style="color:Tomato;">Hello World</h1>
+            <p style="color:DodgerBlue;">Lorem ipsum...</p>
+            <p style="color:MediumSeaGreen;">Ut wisi enim...</p>
+
+        </p>
+        
+        <br>
+
+        <h2>6. HTML Tables</h2>
+        <p>
+            Las tablas HTML permiten a los desarrolladores web organizar los datos en filas y columnas.
+
+            <table>
+                <tr>
+                  <th>Company</th>
+                  <th>Contact</th>
+                  <th>Country</th>
+                </tr>
+                <tr>
+                  <td>Alfreds Futterkiste</td>
+                  <td>Maria Anders</td>
+                  <td>Germany</td>
+                </tr>
+                <tr>
+                  <td>Centro comercial Moctezuma</td>
+                  <td>Francisco Chang</td>
+                  <td>Mexico</td>
+                </tr>
+              </table>
+        </p>
+        
+        <br>
+
+        <h2>7. HTML Emojis</h2>
+        <p>
+            Este nos permite agregar emojis a nuestros codigos
+
+            <p style="font-size:48px">
+                &#128512; &#128516; &#128525; &#128151;
+                </p>
+        </p>
+        
+        <br>
+
+        <h2>8. HTML Simbolos</h2>
+        <p>
+            Los símbolos o letras que no están presentes en su teclado se pueden agregar a HTML mediante entidades. <br><br>
+            Para agregar dichos símbolos a una página HTML, puede usar el nombre de la entidad o el número de la entidad (una referencia decimal o hexadecimal) para el símbolo:
+
+            <p>I will display &euro;</p>
+            <p>I will display &#8364;</p>
+            <p>I will display &#x20AC;</p>
+
+        </p>
+        
+        <br>
+
+        <h2>9. HTML < blockquote > para Citar</h2>
+        <p>
+            El elemento HTML < blockquote > define una sección citada de otra fuente.
+            Los navegadores suelen aplicar sangría a los elementos < blockquote >.
+
+            <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+            </blockquote>
+
+        </p>
+        
+        <br>
+
+        <h2>10. HTML Object</h2>
+        <p>
+            El elemento < object > es compatible con todos los navegadores.
+            El elemento < object > define un objeto incrustado dentro de un documento HTML.    
+            Fue diseñado para incrustar complementos (como subprogramas de Java, lectores de PDF y reproductores Flash) en páginas web, pero también se puede utilizar para incluir HTML en HTML:
+
+            <object width="100%" height="500px" data="snippet.html"></object>
+
+        </p>
+
+</body>
+</html>

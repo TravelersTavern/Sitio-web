@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    padding-left: 5%;
+    color: #424242;
+    font-size: 5rem;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    padding: 3%;
+  }
+
+span {
+    color: #424242;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+section {
+    margin: 0 auto;
+    min-height: 35vh;
+    width: 100%;
+    padding-left: 5%;
+}
+
+.container {
+    font-size: 2rem;
+    color: #424242;
+    height: fit-content;
+    width: 500px;
+}
+
+.seccion1 .container {
+    border: solid 7px #48CFCB;
+}
+
+.seccion2 .container {
+    border-top: solid 7px #48CFCB;
+}
+
+.seccion3 .container {
+    border-bottom: solid 7px #48CFCB;
+}
+
+.seccion4 .container {
+    border-left: solid 7px #48CFCB;
+}
+
+.seccion5 .container {
+    border-right: solid 7px #48CFCB;
+}
+
+.seccion6 .container {
+    border: solid 7px #48CFCB;;
+    border-style: dotted;
+}
+
+.seccion7 .container {
+    border: solid 7px #48CFCB;;
+    border-style: dashed;
+}
+
+.seccion8 .container {
+    border: solid 7px #48CFCB;
+    border-style: inset;
+}
+
+.seccion9 .container {
+    border: solid 75x #48CFCB;;
+    border-style: ridge;
+}
+
+.seccion10 .container {
+    border-block: solid 7px #48CFCB;;
+}
